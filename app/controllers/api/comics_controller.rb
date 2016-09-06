@@ -1,6 +1,3 @@
-require 'digest'
-
-
 class Api::ComicsController < ApplicationController
   include Roar::Rails::ControllerAdditions
   respond_to :json
