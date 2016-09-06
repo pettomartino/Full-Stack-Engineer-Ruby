@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:pettomartino/marvel.git
+  remote: git://github.com/pettomartino/marvel.git
   revision: e7dea44aac37321bb54a80917e73c9b3a126c304
   specs:
     marvel_api (0.2.1)
