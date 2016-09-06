@@ -1,0 +1,2 @@
+class ComicVote < ApplicationRecord
+end
