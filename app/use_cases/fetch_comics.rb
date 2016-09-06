@@ -18,7 +18,7 @@ class FetchComics
   attr_reader :api_client, :title, :page
 
   def fetch_comics
-    comics = api_client.comics(search_params)
+    api_client.comics(search_params)
   end
 
   def search_params
@@ -26,6 +26,7 @@ class FetchComics
     search[:title] = title if title
     search
   end
+
   def offset
     20 * page.to_i
   end
