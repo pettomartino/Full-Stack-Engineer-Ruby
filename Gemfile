@@ -10,7 +10,7 @@ gem 'dotenv-rails', '~> 2.1'
 gem 'responders'
 gem 'roar-rails'
 gem 'multi_json'
-gem 'marvel_api', git: 'git@github.com:pettomartino/marvel.git'
+gem 'marvel_api', github: 'pettomartino/marvel'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
